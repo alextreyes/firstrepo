@@ -1,0 +1,16 @@
+what git command creates a branch?
+    git branch <nameofthebranch>
+
+what's the difference between fast foward and recursive merges?
+    a fast-foward merge is what occurs wen git is able to automatically determine that a branch could be cleanly merged, without needing to create multiple lines of history, unlike recursive merge,  that creates multiple lines of history  
+
+what git command chanes to another branch?
+    now is another one, is git switch, also you can create and switch with git switch -c 
+
+what git command deletes a branch?
+    git branch -d <nameofthebranch> deletes the branch selected, also  -D, forces the deletion of the branch
+
+how do merge conflicts happens?
+     having two files with the same name, but with different contents, git will let you know if this happens, and you'll be the one choosing which change stays 
+
+not sure how to send part 2, so you'll have to trust me that I did it :)
